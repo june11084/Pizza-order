@@ -28,9 +28,10 @@
                 <input type="checkbox" name="topping"  value="Sausage"> Sausage <br>
                 <input type="checkbox" name="topping"  value="Bacon"> Bacon <br>
             </div>
-            <button type="submit" class="btn btn-default">Add</button>
+            <button type="submit" class="btn btn-default">Add To Cart</button>
+            <input type="button" class="btn btn-default" value="Clear Cart" onClick="location.href=location.href">
           </form>
-          <h3>Orders</h3>
+          <h3>Orders:</h3>
           <ol id="orders"></ol>
           <p>Your Total Cost is: <span id="total"></span></p>
         </div>
@@ -42,6 +43,7 @@
             <p>Toppings: <span class="toppings"></span></p>
             <p>Cost: <span class="cost"></span></p>
           </div>
+        </div>
       </div>
     </div>
   </body>

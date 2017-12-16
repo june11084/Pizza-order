@@ -1,10 +1,39 @@
 #show-details {
   display: none;
 }
+#address {
+  display: none:
+}
 .order {
   cursor: pointer;
-  color: #0088cc;
+  color: #0800FF;
 }
 .order:hover {
   text-decoration: underline;
+}
+body {
+  background-image: url("../img/pizza.jpg");
+}
+.container {
+  margin-bottom:200px;
+  background-color: #5eafed;
+  padding-bottom: 20px;
+}
+.container h1 {
+  font-family:sans-serif;
+}
+.container h2 {
+  text-emphasis:0px;
+}
+.container ol,p {
+  font-size: 19px;
+}
+.container label {
+  font-family:sans-serif;
+}
+.form-group {
+  font-size: 19px;
+}
+.form-control {
+  font-size: 19px;
 }
